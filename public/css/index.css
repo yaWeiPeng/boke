@@ -4,43 +4,9 @@ body {
     margin:0px;
     padding:0px; 
 }
-.text{
-    width:100%;
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-    padding-top: 200px;
-}
 a{
     color: #000;
     text-decoration: none;
-}
-#layer{
-    background-color:gray; 
-     left:0; 
-     opacity:0.5; 
-     position:absolute; 
-     top:0; 
-     z-index:3; 
-     filter:alpha(opacity=50); 
-     -moz-opacity:0.5; 
-     -khtml-opacity:0.5; 
-}
-#pop{
-    text-align:center; 
-     background-color:#fff; 
-     height:200px; 
-     left:50%; 
-     margin:-200px 0 0 -200px; 
-     padding:1px; 
-     position:fixed; 
-     position:absolute; 
-     top:50%; 
-     width:360px; 
-     z-index:5; 
-     border-radius:6px; 
-     display:none; 
-     line-height: 200px;
 }
 *{
 	margin: 0px;

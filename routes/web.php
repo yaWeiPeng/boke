@@ -15,6 +15,14 @@
 Route::get('/', function () {
     return view('fron.index');
 });
+//前台登录
+Route::get('/login',function(){
+	return view('fron.member.login');
+});
+//前台注册
+Route::get('/reg',function(){
+	return view('fron.member.reg');
+});
 
 //后台
 Route::get('/admin',function(){

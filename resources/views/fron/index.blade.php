@@ -13,18 +13,12 @@
 		<div class="icome-center">
 			<div class="icome-border">
 				<img src="/touxiang/moren.jpeg" class="icome">
-				<a href="javascript:showlayer()" id="login">登录</a>
-				<a href="javascript:0" style="float: right;" id="reg">注册</a>
+				<a href="/login">登录</a>
+				<a href="/reg" style="float: right;">注册</a>
 				<!-- <span>欢迎，</span>
 				<span>用户</span> -->
 			</div>
 		</div>
 	</div>
-<!-- 弹出层 -->
-	<div id="layer"></div>
-    <div class="text">
-        <a href="javascript:showlayer()">click here show layer</a>
-        <div id="pop">O(∩_∩)O~ &nbsp;&nbsp;&nbsp;I am pop layer.</div>
-    </div>
 </body>
 </html>
